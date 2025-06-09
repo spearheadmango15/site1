@@ -5,27 +5,19 @@ import Head from 'next/head';
 export default function About() {
   return (
     <>
-      <Head>
-        <title>About – Soulful Tarot Journey By Aashi</title>
-      </Head>
+      <Head><title>About – Soulful Tarot</title></Head>
       <Navbar />
-
-      <main className="bg-mist text-deepPurple py-12 px-6">
+      <main className="pt-20 bg-mist text-deepPurple px-4 py-12">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl font-serif mb-6">About Soulful Tarot Journey By Aashi</h1>
-          <p className="text-md text-deepPurple/70 mb-8">
-            At Soulful Tarot Journey By Aashi, we believe in the healing power of insight, energy, and intuition.
+          <h1 className="text-3xl sm:text-4xl font-serif mb-4">About Soulful Tarot</h1>
+          <p className="text-base sm:text-lg text-deepPurple/80 mb-6">
+            At Soulful Tarot, we heal through insight, intention, and intuition.
           </p>
-          <p className="text-sm text-deepPurple/80 mb-4 leading-relaxed">
-            Founded from a deep love for spiritual connection, our mission is to provide a safe, welcoming space
-            where you can explore your soul’s journey. Each session is approached with empathy, wisdom, and a desire to help you awaken your inner guide.
-          </p>
-          <p className="text-sm text-deepPurple/80 leading-relaxed">
-            We combine ancient practices with modern care to offer a uniquely transformative experience.
+          <p className="text-sm sm:text-base text-deepPurple/80 leading-relaxed">
+            Founded from deep spiritual practice, we offer a safe and nurturing space to explore your personal growth journey.
           </p>
         </div>
       </main>
-
       <Footer />
     </>
   );
