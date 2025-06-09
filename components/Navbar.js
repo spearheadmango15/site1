@@ -5,7 +5,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-amethyst text-white fixed top-0 left-0 right-0 z-50 shadow-lg">
+    <nav className="bg-deepPurple text-white fixed top-0 left-0 right-0 z-50 shadow-lg">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-serif tracking-wider">Soulful Tarot</Link>
 
@@ -25,7 +25,7 @@ export default function Navbar() {
           {['/', '/about', '/services', '/contact'].map((path, i) => {
             const name = path === '/' ? 'Home' : path.replace('/', '').charAt(0).toUpperCase() + path.slice(2);
             return (
-              <Link key={i} href={path} className="block px-4 py-2 hover:bg-amethyst/90 rounded transition">
+              <Link key={i} href={path} className="block px-4 py-2 hover:bg-deepPurple/90 rounded transition">
                 {name}
               </Link>
             );
