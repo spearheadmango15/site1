@@ -3,8 +3,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        deepPurple: '#4B2E83',
-        mist: '#F5F3F7',
+        lavender: '#EDE4F0',
+        mist: '#F9F6F0',
+        amethyst: '#A78BFA',
+        rosequartz: '#F3D1DC',
+        candle: '#FFF9F3',
+        deepPurple: '#5B3E75',
+      },
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['"Open Sans"', 'sans-serif']
       },
       animation: {
         'fade-in': 'fadeIn 0.8s ease-out',
