@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-deepPurple text-white text-center py-6 mt-12 animate-fade-up">
+    <footer className="bg-amethyst text-white text-center py-6 mt-12 animate-fade-up">
       <div className="max-w-6xl mx-auto text-center space-y-4">
         <div className="flex justify-center gap-6">
           {/* SVG icons */}
